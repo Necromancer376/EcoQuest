@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EcoQuests</string>
+    <string name="duration">Duration</string>
+    <string name="start_challenge">Start Challenge</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestDetailActivity"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/quest_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingHorizontal="20dp"
+        android:src="@drawable/leaf"
+        android:adjustViewBounds="true"
+        android:background="@color/leafGreen" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Plant 3 Trees"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="1 Week"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/desciption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="plant 3 trees in 7 days"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:drawableTint="#000000" />
+
+    <Button
+        android:id="@+id/btnStartChallenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/start_challenge"
+        android:textSize="20sp"
+        android:background="@drawable/button_background" />
+
+</LinearLayout>
